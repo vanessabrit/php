@@ -14,11 +14,13 @@
         echo "<h2>Mostrar qual foi o ano anterior ao ano atual</h2>";
 
         $ano_atual = 2022;
-        echo "O ano atual é $ano_atual e o ano anterior é " . --$ano_atual?>
+        echo "O ano atual é $ano_atual e o ano anterior é " . --$ano_atual;
 
         /* Pré - incremento $a = $a + 1     ++$a -> ele incrementa antes de qualquer coisa.
            Pós - incremento $a = $a + 1     $a++ -> ele faz primeiro o uso da variável e depois incrementa.
            Pré - decremento $a = $a - 1     --$a
-           Pós - decremento $a = $a - 1     $a-- */
+           Pós - decremento $a = $a - 1     $a--  */
+        
+    ?>    
 </body>
 </html>
